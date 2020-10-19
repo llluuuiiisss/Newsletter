@@ -54,8 +54,6 @@ app.post("/",function(req,res){
   });
   requestHTTPS.write(jasonData);
   requestHTTPS.end();
-
-
 });
 
 
